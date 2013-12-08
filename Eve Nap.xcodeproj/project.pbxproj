@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373F75FA185519810058AF5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373F75F9185519810058AF5E /* Foundation.framework */; };
+		373F75FC185519810058AF5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373F75FB185519810058AF5E /* CoreGraphics.framework */; };
+		373F75FE185519810058AF5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373F75FD185519810058AF5E /* UIKit.framework */; };
+		373F7604185519810058AF5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 373F7602185519810058AF5E /* InfoPlist.strings */; };
+		373F7606185519810058AF5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F7605185519810058AF5E /* main.m */; };
+		373F760A185519810058AF5E /* enAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F7609185519810058AF5E /* enAppDelegate.m */; };
+		373F760D185519810058AF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373F760B185519810058AF5E /* Main.storyboard */; };
+		373F7610185519810058AF5E /* enViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F760F185519810058AF5E /* enViewController.m */; };
+		373F7612185519810058AF5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373F7611185519810058AF5E /* Images.xcassets */; };
+		373F7619185519810058AF5E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373F7618185519810058AF5E /* XCTest.framework */; };
+		373F761A185519810058AF5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373F75F9185519810058AF5E /* Foundation.framework */; };
+		373F761B185519810058AF5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373F75FD185519810058AF5E /* UIKit.framework */; };
+		373F7623185519810058AF5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 373F7621185519810058AF5E /* InfoPlist.strings */; };
+		373F7625185519810058AF5E /* Eve_NapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F7624185519810058AF5E /* Eve_NapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		373F761C185519810058AF5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373F75EE185519800058AF5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 373F75F5185519810058AF5E;
+			remoteInfo = "Eve Nap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		373F75F6185519810058AF5E /* Eve Nap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eve Nap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		373F75F9185519810058AF5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		373F75FB185519810058AF5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		373F75FD185519810058AF5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		373F7601185519810058AF5E /* Eve Nap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eve Nap-Info.plist"; sourceTree = "<group>"; };
+		373F7603185519810058AF5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		373F7605185519810058AF5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		373F7607185519810058AF5E /* Eve Nap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eve Nap-Prefix.pch"; sourceTree = "<group>"; };
+		373F7608185519810058AF5E /* enAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enAppDelegate.h; sourceTree = "<group>"; };
+		373F7609185519810058AF5E /* enAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = enAppDelegate.m; sourceTree = "<group>"; };
+		373F760C185519810058AF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		373F760E185519810058AF5E /* enViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enViewController.h; sourceTree = "<group>"; };
+		373F760F185519810058AF5E /* enViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = enViewController.m; sourceTree = "<group>"; };
+		373F7611185519810058AF5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		373F7617185519810058AF5E /* Eve NapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eve NapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		373F7618185519810058AF5E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		373F7620185519810058AF5E /* Eve NapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eve NapTests-Info.plist"; sourceTree = "<group>"; };
+		373F7622185519810058AF5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		373F7624185519810058AF5E /* Eve_NapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eve_NapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373F75F3185519810058AF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373F75FC185519810058AF5E /* CoreGraphics.framework in Frameworks */,
+				373F75FE185519810058AF5E /* UIKit.framework in Frameworks */,
+				373F75FA185519810058AF5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373F7614185519810058AF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373F7619185519810058AF5E /* XCTest.framework in Frameworks */,
+				373F761B185519810058AF5E /* UIKit.framework in Frameworks */,
+				373F761A185519810058AF5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373F75ED185519800058AF5E = {
+			isa = PBXGroup;
+			children = (
+				373F75FF185519810058AF5E /* Eve Nap */,
+				373F761E185519810058AF5E /* Eve NapTests */,
+				373F75F8185519810058AF5E /* Frameworks */,
+				373F75F7185519810058AF5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		373F75F7185519810058AF5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373F75F6185519810058AF5E /* Eve Nap.app */,
+				373F7617185519810058AF5E /* Eve NapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373F75F8185519810058AF5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				373F75F9185519810058AF5E /* Foundation.framework */,
+				373F75FB185519810058AF5E /* CoreGraphics.framework */,
+				373F75FD185519810058AF5E /* UIKit.framework */,
+				373F7618185519810058AF5E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		373F75FF185519810058AF5E /* Eve Nap */ = {
+			isa = PBXGroup;
+			children = (
+				373F7608185519810058AF5E /* enAppDelegate.h */,
+				373F7609185519810058AF5E /* enAppDelegate.m */,
+				373F760B185519810058AF5E /* Main.storyboard */,
+				373F760E185519810058AF5E /* enViewController.h */,
+				373F760F185519810058AF5E /* enViewController.m */,
+				373F7611185519810058AF5E /* Images.xcassets */,
+				373F7600185519810058AF5E /* Supporting Files */,
+			);
+			path = "Eve Nap";
+			sourceTree = "<group>";
+		};
+		373F7600185519810058AF5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				373F7601185519810058AF5E /* Eve Nap-Info.plist */,
+				373F7602185519810058AF5E /* InfoPlist.strings */,
+				373F7605185519810058AF5E /* main.m */,
+				373F7607185519810058AF5E /* Eve Nap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		373F761E185519810058AF5E /* Eve NapTests */ = {
+			isa = PBXGroup;
+			children = (
+				373F7624185519810058AF5E /* Eve_NapTests.m */,
+				373F761F185519810058AF5E /* Supporting Files */,
+			);
+			path = "Eve NapTests";
+			sourceTree = "<group>";
+		};
+		373F761F185519810058AF5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				373F7620185519810058AF5E /* Eve NapTests-Info.plist */,
+				373F7621185519810058AF5E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		373F75F5185519810058AF5E /* Eve Nap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373F7628185519810058AF5E /* Build configuration list for PBXNativeTarget "Eve Nap" */;
+			buildPhases = (
+				373F75F2185519810058AF5E /* Sources */,
+				373F75F3185519810058AF5E /* Frameworks */,
+				373F75F4185519810058AF5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eve Nap";
+			productName = "Eve Nap";
+			productReference = 373F75F6185519810058AF5E /* Eve Nap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		373F7616185519810058AF5E /* Eve NapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373F762B185519810058AF5E /* Build configuration list for PBXNativeTarget "Eve NapTests" */;
+			buildPhases = (
+				373F7613185519810058AF5E /* Sources */,
+				373F7614185519810058AF5E /* Frameworks */,
+				373F7615185519810058AF5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373F761D185519810058AF5E /* PBXTargetDependency */,
+			);
+			name = "Eve NapTests";
+			productName = "Eve NapTests";
+			productReference = 373F7617185519810058AF5E /* Eve NapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		373F75EE185519800058AF5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = en;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Daniel Pape";
+				TargetAttributes = {
+					373F7616185519810058AF5E = {
+						TestTargetID = 373F75F5185519810058AF5E;
+					};
+				};
+			};
+			buildConfigurationList = 373F75F1185519800058AF5E /* Build configuration list for PBXProject "Eve Nap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 373F75ED185519800058AF5E;
+			productRefGroup = 373F75F7185519810058AF5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				373F75F5185519810058AF5E /* Eve Nap */,
+				373F7616185519810058AF5E /* Eve NapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373F75F4185519810058AF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373F7612185519810058AF5E /* Images.xcassets in Resources */,
+				373F7604185519810058AF5E /* InfoPlist.strings in Resources */,
+				373F760D185519810058AF5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373F7615185519810058AF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373F7623185519810058AF5E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373F75F2185519810058AF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373F7606185519810058AF5E /* main.m in Sources */,
+				373F760A185519810058AF5E /* enAppDelegate.m in Sources */,
+				373F7610185519810058AF5E /* enViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373F7613185519810058AF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373F7625185519810058AF5E /* Eve_NapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373F761D185519810058AF5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 373F75F5185519810058AF5E /* Eve Nap */;
+			targetProxy = 373F761C185519810058AF5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		373F7602185519810058AF5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373F7603185519810058AF5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		373F760B185519810058AF5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373F760C185519810058AF5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		373F7621185519810058AF5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373F7622185519810058AF5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373F7626185519810058AF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		373F7627185519810058AF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		373F7629185519810058AF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eve Nap/Eve Nap-Prefix.pch";
+				INFOPLIST_FILE = "Eve Nap/Eve Nap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		373F762A185519810058AF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eve Nap/Eve Nap-Prefix.pch";
+				INFOPLIST_FILE = "Eve Nap/Eve Nap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		373F762C185519810058AF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Eve Nap.app/Eve Nap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eve Nap/Eve Nap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Eve NapTests/Eve NapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		373F762D185519810058AF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Eve Nap.app/Eve Nap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eve Nap/Eve Nap-Prefix.pch";
+				INFOPLIST_FILE = "Eve NapTests/Eve NapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373F75F1185519800058AF5E /* Build configuration list for PBXProject "Eve Nap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373F7626185519810058AF5E /* Debug */,
+				373F7627185519810058AF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373F7628185519810058AF5E /* Build configuration list for PBXNativeTarget "Eve Nap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373F7629185519810058AF5E /* Debug */,
+				373F762A185519810058AF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		373F762B185519810058AF5E /* Build configuration list for PBXNativeTarget "Eve NapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373F762C185519810058AF5E /* Debug */,
+				373F762D185519810058AF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 373F75EE185519800058AF5E /* Project object */;
+}
